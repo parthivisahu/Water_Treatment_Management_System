@@ -1,0 +1,24 @@
+<button mat-button [matMenuTriggerFor]="#">H20Sync</button>
+<button mat-button [matMenuTriggerFor]="plants">Plants</button>
+<button mat-button [matMenuTriggerFor]="reports">Reports</button>
+<button mat-button [matMenuTriggerFor]="notifications">Notifications</button>
+<button mat-button [matMenuTriggerFor]="about">About Us</button>
+<button mat-button [matMenuTriggerFor]="reports">Reports</button>
+<button mat-button [matMenuTriggerFor]="Help">Help</button>
+<button mat-button [matMenuTriggerFor]="logout">Log Out</button>
+
+
+<mat-menu #plants="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="fish"></button>
+  <button mat-menu-item [matMenuTriggerFor]="amphibians"></button>
+  <button mat-menu-item [matMenuTriggerFor]="reptiles"></button>
+  <button mat-menu-item></button>
+  <button mat-menu-item></button>
+</mat-menu>
+
+
+
+
+
+
+
